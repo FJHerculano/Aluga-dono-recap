@@ -1,0 +1,58 @@
+.banner-img{
+    height: 600px;
+    width:  100%;
+}
+
+.position-father{
+    position: relative;
+    height: 800px;
+    width:  100%;
+}
+
+.position-son{
+    position: absolute;
+    top: 400px;
+    left: 50%;
+    transform: translate(-50%, -50%);
+
+}
+
+.position-son h1,h5{
+    -webkit-text-stroke: 0.5px black; 
+    text-stroke: 0.5px black; 
+}
+
+@media screen and (max-width: 970px){
+    
+    .position-son{
+        position: absolute;
+        top: 650px;
+        left: 50%;
+        transform: translate(-50%, -50%);
+
+    }
+        
+    .position-father{
+        position: relative;
+        height: 1100px;
+        width:  100%;
+    }
+
+}
+
+@media screen and (max-width: 578px){
+    .position-son{
+        position: absolute;
+        top: 650px;
+        left: 50%;
+        transform: translate(-50%, -50%);
+
+    }
+        
+    .position-father{
+        position: relative;
+        height: 1150px;
+        width:  100%;
+    }
+
+}

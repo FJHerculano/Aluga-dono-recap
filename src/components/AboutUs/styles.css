@@ -1,0 +1,21 @@
+.img-about{
+    width: 450px;
+    height: 450px;
+}
+
+@media screen and (max-width: 569px){
+    .imgAboutflex{
+        display: flex;
+        justify-content: center;
+    }
+
+    .img-about{
+        width: 250px;
+        height: 250px;
+    }
+
+    .imgAboutBlock{
+        display: block;
+        justify-content: center;
+    }
+}

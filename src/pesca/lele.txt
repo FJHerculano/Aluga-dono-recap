@@ -1,0 +1,118 @@
+Vai ter um banco porte, e demais bancos de especificações
+
+Cadastro do hospede 
+
+Nome ( @user )
+data de nascimento
+Email valido
+Senha
+Celular
+foto é opcional
+
+CEP
+Cidade
+
+Cadastro do Anfitrião 
+
+Observações : O cadastro será apenas os dados, os campos de especificações será feito
+posteriormente em um novo banco atrelado ao usuario
+fluxo : Anfitrião cadastrado ? direciona page ESPECIFICAÇÕES com opção de pular etapa para depois
+
+
+Nome ( @User )
+Data de nascimento
+Email 
+senha 
+Celular
+foto é opcional
+
+CEP
+Cidade
+Rua ou avenida
+bairro
+Numero da Casa 
+Estado
+Ponto de referencia
+
+Cadastro multi part - Anfitrião
+==========================================================================
+Descrição 
+
+--------------------------------------------------------------------------
+(Poderá aceitar apenas um)
+ESTARÁ 24 HORAS COM O ANIMAL?
+ sim
+ não
+
+EXPERIENCIA COM ANIMAIS IDOSOS?
+ sim
+ não
+
+EXPERIENCIA COM FILHOTE MUITO NOVO?
+ sim
+ não
+
+EXPERIENCIA COM ANIMAIS PORTADOR DE NESCESSIDADE ESPECIAL?(EX:DEFICIENTE VISUAL, FRAQUEZA ÓSSEA,..)
+ sim
+ não
+
+VOCÊ TEM ALGUMA EXPERIENCIA VETERINARIA?
+ sim
+ não
+
+TEM CRIANÇAS PEQUENAS?
+ sim 
+ não
+
+--------------------------------------------------------------------------
+PORTE ACEITO (Poderá aceitar mais de um)
+ pequeno  
+ medio  
+ grande 
+ muito-grande
+
+--------------------------------------------------------------------------
+(Poderá aceitar apenas um)
+DISPOSIÇÃO PARA HOSPEDAR QUANTOS ANIMAIS?
+ Apenas um
+ Apenas dois
+ Apenas três
+ Quatro animais ou mais
+
+--------------------------------------------------------------------------
+(Poderá aceitar apenas um)
+ VOCÊ JÁ TEM ALGUM ANIMAL?
+ Sim, apenas animal pequeno
+ Sim, apenas animal grande
+ Sim, animais grandes e pequenos
+ Não tenho animais 
+
+--------------------------------------------------------------------------
+(Poderá aceitar apenas um)
+ VOCÊ ACEITARA ANIMAIS..
+ Castrados
+ Machos apenas Castrados
+ Todos
+
+--------------------------------------------------------------------------
+(Poderá aceitar apenas um)
+ VOCÊ ACEITARA ANIMAIS..
+ Apenas vacinados
+ Todos
+
+--------------------------------------------------------------------------
+(Poderá aceitar apenas um)
+ O AMBIENTE SERÁ...
+ casa
+ apartamento
+ chacara
+ sitio
+ outro
+
+--------------------------------------------------------------------------
+(Poderá aceitar apenas um)
+ VOCÊ TEM ALGUMA EXPERIENCIA EM APLICAR MEDICAMENTO?
+ Nenhuma experiencia
+ Apenas via oral
+ Apenas de forma injetavel
+ experiencia em aplicar qualquer medicamento 

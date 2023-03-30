@@ -1,0 +1,71 @@
+.option-style{
+    min-width: 200px ;
+    margin: 5px 0;
+}
+.card-custom{
+    min-height: 230px;
+}
+
+.mini-card-custom{
+    min-height: 150px;
+    max-width: 250px;
+}
+
+.area-campo1{
+  max-height: 620px;
+}
+
+.campo1 {
+order: 1;
+}
+
+
+.campo2 {
+order: 2;
+}
+
+.campo3 {
+order: 3;
+}
+
+.campo4 {
+order: 4;
+}
+
+
+@media screen and (max-width: 991px) {
+  .campo1 {
+    order: 2;
+  }
+  
+  .campo2 {
+    order: 1;
+  }
+  
+  .campo3 {
+    order: 3;
+  }
+
+  .campo4 {
+  order: 4;
+  }
+}
+
+/*   
+  @media screen and (max-width: 760px) {
+    
+    .teste{
+        display: block;
+    }
+    .campo1 {
+      order: 2;
+    }
+    
+    .campo2 {
+      order: 1;
+    }
+    
+    .campo3 {
+      order: 3;
+    }
+  } */
