@@ -35,7 +35,7 @@ const DataProfileTwo = () => {
 
         <h5 className="text-center">Hospedagem:</h5>
 
-        <div className="col-6 mt-3 px-5">
+        <div className="col-md-6 col-sm-12 mt-3 px-5">
             <div className="text-center">
               <span className="fw-bold">Valor: </span>
               <span className="border-bottom border-3 border-success"> 45.00 R$</span>
@@ -46,10 +46,9 @@ const DataProfileTwo = () => {
             </div>
         </div>
 
-        <div className="col-6 mt-3 px-5 text-center">
-
+        <div className="col-md-6 col-sm-12 mt-3 px-5 text-center">
           <span className="fw-bold">Status: </span>
-          <div className="d-flex border-bottom border-2 border-info p-1"> 
+          <div className="d-flex p-1 justify-content-center"> 
             <span className="badge bg-success"> Hospedagem Disponivel </span>
             <span className="badge ms-2 bg-warning"><FontAwesomeIcon icon={faPen}/></span>
           </div>
