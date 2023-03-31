@@ -13,7 +13,7 @@ const OptionsProfile = ({ nameTag, color="white", background="secondary"}: Props
     <div> 
         {/* Quando inativo será cinza com branco , ativo azul com preto */}
         <div className="text-center">
-            <span className={`bg-${background} text-center btn btn-sm option-style text-${color}`}>{nameTag}</span>  
+            <h6 className={`bg-${background} text-center btn btn-sm option-style text-${color}`}>{nameTag}</h6>  
         </div>        
     </div>
   )

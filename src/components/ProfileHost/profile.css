@@ -1,9 +1,10 @@
 .option-style{
-    min-width: 200px ;
-    margin: 5px 0;
+    min-width: 170px ;
+    margin: 2px 0;
 }
+
 .card-custom{
-    min-height: 230px;
+    min-height: 185px;
 }
 
 .mini-card-custom{
@@ -18,20 +19,15 @@
 .campo1 {
 order: 1;
 }
-
-
 .campo2 {
 order: 2;
 }
-
 .campo3 {
 order: 3;
 }
-
 .campo4 {
 order: 4;
 }
-
 
 @media screen and (max-width: 991px) {
   .campo1 {

@@ -2,14 +2,15 @@ import OptionsProfile from "./OptionsProfile"
 
 const DataProfileThree = () => {
   return (
-    <div className="mt-3">
-        <h4 className="text-center">Curiosidades sobre o anfitrião:</h4>
+    <div className="my-3">
+      <h4 className="text-center">Curiosidades sobre o anfitrião:</h4>
 
       <div className="row d-lg-block d-md-flex align-items-center justify-content-center">
+          
           {/* Quarto campo de dados */}
           <div className="mb-4 col-lg-12 col-md-6 col-sm-12">
             <div className="shadow-sm bg-white rounded-4 p-2 card-custom" >
-              <h5 className="text-center">Aceita hospedar:</h5>
+              <h6 className="text-center">Aceita hospedar:</h6>
               <OptionsProfile
                 title="Editar perfil"
                 nameTag="Apenas 1 animal"
@@ -41,7 +42,7 @@ const DataProfileThree = () => {
           <div className="mb-4 col-lg-12 col-md-6 col-sm-12">
             <div className="shadow-sm bg-white rounded-4 p-2 card-custom" >
 
-              <h5 className="text-center">Já possui animais:</h5>
+              <h6 className="text-center">Já possui animais:</h6>
               <OptionsProfile
                 title="Editar perfil"
                 nameTag="Sim, animal pequeno"
@@ -73,7 +74,7 @@ const DataProfileThree = () => {
           <div className="mb-4 col-lg-12 col-md-6 col-sm-12">
             <div className="shadow-sm bg-white rounded-4 p-2 card-custom" >
 
-              <h5 className="text-center">Animal castrado:</h5>
+              <h6 className="text-center">Animal castrado:</h6>
                 <OptionsProfile
                   title="Editar perfil"
                   nameTag="Apenas castrado"
@@ -103,22 +104,22 @@ const DataProfileThree = () => {
 
           {/* Setimo campo de dados */}
           <div className="mb-4 col-lg-12 col-md-6 col-sm-12">
-        <div className="shadow-sm bg-white rounded-4 p-2 card-custom" >
+            <div className="shadow-sm bg-white rounded-4 p-2 card-custom" >
 
-          <h5 className="text-center mt-5">Saúde do animal:</h5>
-          <OptionsProfile
-            title="Editar perfil"
-            nameTag="Aceito apenas vacinado"
-            background="secondary"
-            color="white"
-          />
-          <OptionsProfile
-            title="Editar perfil"
-            nameTag="Aceito todos"
-            background="info"
-            color="white"
-          />
-        </div>
+              <h6 className="text-center mt-5">Saúde do animal:</h6>
+              <OptionsProfile
+                title="Editar perfil"
+                nameTag="Aceito apenas vacinado"
+                background="secondary"
+                color="white"
+              />
+              <OptionsProfile
+                title="Editar perfil"
+                nameTag="Aceito todos"
+                background="info"
+                color="white"
+              />
+            </div>
           </div>
       </div>
     </div>

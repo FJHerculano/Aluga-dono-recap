@@ -1,22 +1,53 @@
-import './specifications.css'
-import SpecificationsFormOne from './SpecificationsFormOne'
-import SpecificationsTitles from './SpecificationsTitles'
+import { FormEvent, ReactElement } from "react";
+import { useForm } from "../../hooks/useForm";
+import SpecificationsFormFour from "./SpecificationsFormFour";
+import SpecificationsFormOne from "./SpecificationsFormOne";
+import SpecificationsFormThree from "./SpecificationsFormThree";
+import SpecificationsFormTwo from "./SpecificationsFormTwo";
+import SpecificationsTitles from "./SpecificationsTitles";
 
-const Login = () => {
+function Specification() {
+
+  const formComponents = [
+    <SpecificationsFormOne/>,
+    <SpecificationsFormTwo/>,
+    <SpecificationsFormThree/>,
+    <SpecificationsFormFour/>
+  ];
+
+  const { currentComponent, changeStep, currentStep, isLastStep } = useForm({
+    steps: formComponents,
+  });
+
+  const handleNext = () => {
+    changeStep(currentStep + 1);
+  };
+
+  const handlePrevious = () => {
+    changeStep(currentStep - 1);
+  };
+
 
   return (
     <div>
       <div className="container col-11 col-md-9" id="form-container">
         <SpecificationsTitles/>
-        <SpecificationsFormOne/>
+        {currentComponent}
 
         <div className="d-flex justify-content-center mt-3">
-            <button className="btn btn-info btn-sm me-3">Pular Tudo</button>
-            <button className="btn btn-success btn-sm me-3">proximo</button>
+          <button disabled={currentStep === 0} onClick={handlePrevious}>
+            Prev
+          </button>
+          <button disabled={isLastStep} onClick={handleNext}>
+            Next
+          </button>
         </div>
+
       </div>
+
+      
     </div>
-  )
+  );
 }
 
-export default Login
+export default Specification;

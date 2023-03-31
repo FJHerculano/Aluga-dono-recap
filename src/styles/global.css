@@ -4,7 +4,6 @@
 
 @import url("https://fonts.googleapis.com/css2?family=Rubik:wght@300;400;500;600&display=swap");
 
-/* ======== base style ======= */
 
 * {
   margin: 0;
@@ -15,7 +14,7 @@
 body,
 html {
   background-color: #f8f8f8;
-  font-family: "Poppins", sans-serif;
+  font-family: "Rubik", sans-serif;
 }
 
 /* h1, */
